@@ -15,9 +15,14 @@ while True:
     num2 = float(input("Enter operand #2: "))
 
     if choice == 1:
+<<<<<<< HEAD
         print("Result:", num1 + num2) #Corrected to addition
-    elif choice == 2:
+=======
         print("Result:", num1 + num2)
+>>>>>>> 6f64d8be47df33cba696a072906bd890707d4f5f
+elif choice == 2:
+    print("Result:", num1 - num2)  # Corrected to subtraction
+
     elif choice == 3:
         print("Result:", num1 * num2)
     elif choice == 4:
